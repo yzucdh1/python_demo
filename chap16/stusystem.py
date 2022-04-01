@@ -183,9 +183,9 @@ def modify():
                 while True:
                     try:
                         d['name']=input('请输入姓名:')
-                        d['english']=input('请输入英语成绩:')
-                        d['python']=input('请输入Python成绩:')
-                        d['java']=input('请输入Java成绩:')
+                        d['english']=int(input('请输入英语成绩:'))
+                        d['python']=int(input('请输入Python成绩:'))
+                        d['java']=int(input('请输入Java成绩:'))
                     except:
                         print('您的输入有误，请重新输入!!!')
                     else:
