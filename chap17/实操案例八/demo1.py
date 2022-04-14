@@ -7,5 +7,5 @@ for index,item in enumerate(coffee_name):
     print(index+1,'.',item,end='  ')
 
 index=int(input('\n请输入您喜欢的咖啡编号:'))
-if 0<=index<=len(coffee_name):
+if 0<index<=len(coffee_name):
     print(f'您的咖啡[{coffee_name[index-1]}]好了，请您慢用')
