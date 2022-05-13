@@ -10,7 +10,7 @@ for item in lst:  #遍历列表  -->{}  item是一个又一个的字典
     act_lst=item['actors']
     for actor in act_lst:
         if name in actor:
-            print(name,'出演了',item['title'])
+            print(actor,'出演了',item['title'])
 
     '''
     for movie in item:  #遍历字典，得到movie 是一个字典中的key
